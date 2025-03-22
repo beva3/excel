@@ -1,0 +1,21 @@
+Student ID,Name,Age,Email,Phone,Grade,Marks,Attendance,Fees Paid
+101,Alice,20,alice@email.com,9876543210,10,85,95,No
+102,Bob,21,bob@email.com,8765432109,10,78,90,Yes
+103,Charlie,19,charlie@email.com,7654321098,10,92,88,Yes
+104,David,22,david@email.com,6543210987,11,67,85,No
+105,Emma,20,emma@email.com,5432109876,11,74,87,Yes
+106,Frank,21,frank@email.com,4321098765,12,88,90,Yes
+107,Grace,19,grace@email.com,3210987654,12,91,80,No
+108,Hannah,22,hannah@email.com,2109876543,11,95,92,Yes
+109,Ian,20,ian@email.com,1098765432,10,89,97,Yes
+110,Jack,21,jack@email.com,9876504321,12,77,85,No
+111,Kate,19,kate@email.com,8765403210,10,82,96,Yes
+112,Liam,22,liam@email.com,7654302109,11,73,91,No
+113,Mia,20,mia@email.com,6543201098,12,79,89,Yes
+114,Nathan,21,nathan@email.com,5432109870,10,86,93,Yes
+115,Olivia,19,olivia@email.com,4321098761,11,90,94,No
+116,Peter,22,peter@email.com,3210987652,12,81,82,Yes
+117,Quinn,20,quinn@email.com,2109876541,11,76,88,No
+118,Rachel,21,rachel@email.com,1098765430,10,83,95,Yes
+119,Sam,19,sam@email.com,9876543201,12,87,90,Yes
+120,Tina,22,tina@email.com,8765432102,11,85,84,No
