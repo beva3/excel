@@ -1,3 +1,4 @@
+from collections import defaultdict as df_dict
 def unique(array):
     seen = set()
     distincts = []
@@ -23,16 +24,31 @@ def unique(array):
     
 
 def count_element(table):
-    count_of = {}
+    # count_of = {}
+    count_of = df_dict(int)
 
     for elt in table:
-        if elt in count_of:
+        # if elt in count_of:
+        if elt in table:
             count_of[elt] += 1
         
-        else :
-            count_of[elt] = 1
+        # else :
+        #     count_of[elt] = 1
 
-    return count_of
+    """
+    2. Simplify count_element() with collections.defaultdict
+        Your count_element() is correct, but you can avoid the 
+        if-else by using defaultdict from the collections module.
+    
+    
+        
+    """
+
+    return dict(count_of)
+    
+
+
+
 # test :
 my_array = [
     "beva",
