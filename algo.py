@@ -72,3 +72,35 @@ table = [
 r = unique(table)
 print(r)
 print(count_element(table))
+
+
+
+"""
+from collections import defaultdict
+
+def unique(array):
+    # Return a list of unique elements in input, preserving order
+    seen = set()
+    return [el for el in array if not (el in seen or seen.add(el))]
+
+def count_element(table):
+    # Return a dictionary counting occurrences of each element in input
+    count_of = defaultdict(int)
+    for elt in table:
+        count_of[elt] += 1
+    return dict(count_of)
+
+# Test
+table = [
+    "raphael", "bienvenu", "raphael", "apple", "banana",
+    "apple", "orange", "bienvenu", "mango", "raphael",
+    "grape", "banana", "pineapple", "bienvenu", "apple",
+    "kiwi", "orange", "raphael", "mango", "banana",
+    "grape", "pineapple", "bienvenu", "apple", "kiwi",
+    "orange", "raphael", "mango", "banana", "grape"
+]
+
+print(unique(table))          # Output: ['raphael', 'bienvenu', 'apple', ...]
+print(count_element(table))     # Output: {'raphael': 5, 'bienvenu': 4, ...}
+
+"""
